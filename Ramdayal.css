@@ -139,7 +139,7 @@
 
         /* Main Content */
         main { padding-top: 4rem; position: relative; z-index: 10; }
-        section { padding-top: 6rem; padding-bottom: 6rem; }
+        section { padding-top: 4rem; padding-bottom: 4rem; }
 
         /* Home Section */
         #home { min-height: 100vh; display: flex; align-items: center; position: relative; }
@@ -335,4 +335,5 @@
     .skill-name {
       font-weight: 500;
       font-size: 1rem;
+
     }
