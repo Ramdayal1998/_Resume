@@ -12,9 +12,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="Ramdayal.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style type="text/css">
+        <style type="text/css">
+            /* Full page background animation */
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  min-height: 100vh;
+  margin: 0;
+  color: #ffffff; /* Set text color to white */
+  font-family: 'Inter', sans-serif; /* optional */
+}
+
+/* Keep headings, paragraphs, links, etc., white */
+h1, h2, h3, h4, h5, h6, p, a, span, li {
+  color: #ffffff !important;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
 
     </style>
+
   </head>
   <body class="antialiased">
     <div class="cursor-outline"></div>
@@ -432,6 +454,7 @@
   </body>
 
 </html>
+
 
 
 
