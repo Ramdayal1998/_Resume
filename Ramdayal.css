@@ -149,7 +149,7 @@
         @media (min-width: 768px) { .home-text { text-align: left; } }
         .home-text h1 { font-size: 2.25rem; font-weight: 700; color: var(--slate-900); line-height: 1.1; margin-bottom: 1rem; }
         .home-text h2 { font-size: 1.5rem; font-weight: 600; color: var(--blue-600); margin-bottom: 1.5rem; }
-        .home-text p { font-size: 1.125rem; color: var(--slate-600); margin-bottom: 2rem; max-width: 36rem; margin-left: auto; margin-right: auto; }
+        .home-text p { font-size: 1.125rem; color: var(--slate-600); margin-bottom: 1rem; max-width: 36rem; margin-left: auto; margin-right: auto; }
         @media (min-width: 768px) { 
             .home-text h1 { font-size: 3.75rem; } 
             .home-text h2 { font-size: 1.875rem; }
@@ -337,3 +337,4 @@
       font-size: 1rem;
 
     }
+
